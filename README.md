@@ -12,7 +12,7 @@ Toolset: VisualStudio 2022 , C# , .NET 6.0
 Setup
 -----
 0) Trouble figuring out what calendar week it is? Then, this is the app for you.
-1) .NET6.0 runtime is a pre-requirement. (If required, please install the included 'windowsdesktop-runtime-6.0.3-win-x64.exe')
+1) .NET6.0 runtime is a pre-requirement. (If missing, the application prompts you to install it and takes you to the MS website)
 2) Launch the 'WhatCalendarWeek.exe' application.
 3) Enjoy!
 
