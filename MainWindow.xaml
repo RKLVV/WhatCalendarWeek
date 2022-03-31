@@ -1,0 +1,28 @@
+﻿<Window x:Class="WhatCalendarWeek.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WhatCalendarWeek"
+        mc:Ignorable="d"
+        Title="WhatCalendarWeek (c) 2022 Ram Lanka" Height="278" Width="201" Foreground="White" Background="Black">
+    <Grid Margin="0,0,0,-6" RenderTransformOrigin="0.505,1.011" Opacity="0.8">
+        <Grid.Background>
+            <RadialGradientBrush>
+                <GradientStop Color="#FF422626"/>
+                <GradientStop Color="#FF1A1A1A" Offset="1"/>
+            </RadialGradientBrush>
+        </Grid.Background>
+        <Viewbox Margin="16,17,16,23" Stretch="Fill">
+            <Grid Height="228" Width="169">
+                <TextBox x:Name="tbCWText" TextChanged="TextBox_OntextChanged" Margin="0,184,0,0" TextWrapping="Wrap" Text="1" FontSize="36" FontWeight="Bold" FontFamily="Siemens Sans Black" BorderBrush="#FFFF8D8D" Height="44" VerticalAlignment="Top" HorizontalAlignment="Left" Width="57"/>
+                <Button Content="Today" Margin="93,184,0,0" Click="Today_Click" Background="#FFD4D4D4" BorderBrush="#FFFF8D8D" FontFamily="Siemens Sans Black" Height="44" VerticalAlignment="Top" HorizontalAlignment="Left" Width="76"/>
+                <Calendar x:Name="calDate" SelectedDatesChanged="Calendar_OnSelectedDatesChanged" Foreground="Black" BorderBrush="#FFFF8D8D" Background="#FFD4D4D4" FontWeight="Bold" FontSize="14" FontFamily="Siemens Slab Black" Height="168" VerticalAlignment="Top" HorizontalAlignment="Center" Width="169" FirstDayOfWeek="Monday"/>
+                <TextBlock HorizontalAlignment="Left" Margin="0,168,0,0" TextWrapping="Wrap" Text="Calendar week:" VerticalAlignment="Top" Height="16" Width="93" FontFamily="Siemens Sans Global"/>
+                <Button Content="^" Margin="57,184,0,0" Click="CWeek_Click" Background="#FFD4D4D4" BorderBrush="#FFFF8D8D" Height="44" VerticalAlignment="Top" HorizontalAlignment="Left" Width="23" FontWeight="Bold" FontFamily="Siemens Slab Black"/>
+
+            </Grid>
+        </Viewbox>
+
+    </Grid>
+</Window>
