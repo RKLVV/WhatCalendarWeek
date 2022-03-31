@@ -1,10 +1,11 @@
 # WhatCalendarWeek
 *******************
-*WhatCalendarWeek**
+*WhatCalendarWeek*
 *******************
 *(C)2022 Ram Lanka*
+*******************
 *Author: Ram Lanka*
-*  C# - .NET 6.0  *
+*  C# - .NET 6.0  
 *******************
 
 Setup
