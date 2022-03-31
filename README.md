@@ -1,12 +1,13 @@
 # WhatCalendarWeek
 *******************
-*WhatCalendarWeek*
-*******************
 *(C)2022 Ram Lanka*
 *******************
 *Author: Ram Lanka*
-*  C# - .NET 6.0  
-*******************
+-------------------
+*Lastedit: 31 March 2022*
+-------------------
+Toolset: VisualStudio 2022 , C# , .NET 6.0  
+-------------------
 
 Setup
 -----
